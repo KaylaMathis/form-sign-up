@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing Skeletons</title>
+    <link rel='stylesheet' href='style.css'/>
+</head>
+<body>
+    <div class='sidebar'>
+        <p class='img-info'>Photo: Paul Cuoco on 
+        <a href="https://unsplash.com/photos/JZOyQluj8eY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a></p>
+            <img class='logo' src="./images/DS.png">
+    </div>
+
+    <div class='right'>
+    <div class='content'>
+    <p class='info'>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now </i>to get started.</p>
+    <br>
+    <p class='info2'>You <i>know</i> you want to.</p>
+    </div>
+
+    <div class='form'>
+    <form action='sign-up' method='get'>
+        <p class='callaction'>Let's do this!</p>
+        
+            <div class='topdiv'>
+                <div class='subcontainer'>
+                    <label for='fname'>FIRST NAME:</label>
+                    <input required type='text' id='first-name' name='first-name'/>   
+                </div>
+
+                <div class='subcontainer'>
+                    <label for='last-name'>LAST NAME:</label>
+                    <input required type='text' id='last-name' name='last-name'/>
+                </div>
+            
+                <div class='subcontainer'>
+                    <label for='email'>EMAIL:</label>
+                    <input required type='email' id='email' name='user-email'/>
+                </div>
+            
+                <div class='subcontainer'>
+                    <label for='phone'>PHONE NUMBER:</label>
+                    <input required type='number' id='phone' name='phone-num'/>
+                </div>
+            
+                <div class='subcontainer'>
+                    <label for='password'>PASSWORD:</label>
+                    <input required type='password' id='password' name='password'/>
+                </div>
+            
+                <div class='subcontainer'>
+                    <label for='confirmPassword'>CONFIRM PASSWORD:</label>
+                    <input required type='password' id='confirmPassword' name='confirmpassword'/>
+                </div>
+            </div>
+    </div>
+
+    <div class='form-end'>
+    <div class='errorMessage'></div>
+    <button class='button' type='submit'>Create Account</button>
+    <h1>Already have an account? <a href='' class='login'>Log in</a></h1>
+    </div>
+    </div>
+    </form>
+</div>
+<script src='main.js'></script>
+</body>
+</html>

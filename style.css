@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Apple Chancery, cursive, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar, logo {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.sidebar{
+    height: auto;
+    width: 50vw;
+    background-color: #eee;
+    background-image: url(https://images.unsplash.com/photo-1600294808794-57bcf94a0c9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+a {
+    color: white;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    opacity: .8;
+    margin-top: 20vh;
+    margin-left: 10vh;
+}
+
+.img-info {
+    color: white; 
+    position: absolute;
+    bottom: 0;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+    background-image: url(https://images.unsplash.com/photo-1557682233-43e671455dfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=882&q=80);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.info {
+    margin-right: 30px;
+}
+
+.callaction {
+    margin-bottom: 5%;
+}
+
+.form {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 5px rgba(71, 76, 80, 0.4);
+    box-sizing: border-box; 
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.topdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+label {
+    font-weight: 500;
+    font-size: 10px;
+    margin-left: 5%;
+}
+
+input {
+    border-radius: 0.2rem;
+    padding:0.2rem 0.2rem;
+    border: 2px solid #eee;
+    margin-bottom: 10%;
+    padding-right: 5%;
+    margin-left: 5%;
+    display: block;
+}
+
+#password, #confirmPassword {
+    border: 2px solid red;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+button {
+    background-color: #e9a018b6;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin: 8px 4px;
+    border: 2px solid black;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+        inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+        0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+button:hover {
+    outline: 0;
+    box-shadow: inset 0px 0.8px 1px -0.25px rgba(255, 255, 255, 0.2),
+        0px 0.5px 1px rgba(0, 0, 0, 0.1),
+        0px 0px 0px 3.5px rgba(240, 240, 127, 0.5); 
+}
+
+.login {
+    color: purple;
+}
+
+/* .error {
+    border: 2px solid red;
+}
+.errorMessage {
+    font-size: 25px;
+    font-weight: 900;
+    color: red;
